@@ -18,6 +18,8 @@ Paso 1: Usaremos la aplicación isntalada Node-Red y accederemos al portal web p
 ![SolaxPower_SK-SU5000E_Node-Red](https://user-images.githubusercontent.com/19588354/131035919-14f3c56c-e17e-45f2-b0a8-8d9bc28e4c21.jpg)
 ![SolaxPower_SK-SU5000E_Node-Red_functions](https://user-images.githubusercontent.com/19588354/131037062-941eae52-ec44-4759-b664-f097da05b6e8.jpg)
 
+URL para la obtención de los datos en tiempo real Methodo GET: http://192.168.X.X/api/realTimeData.html
+URL para la obtención de datos históricos Metodo GET: http://192.168.X.X/api/historyData.html 
 
 Paso 2: Ahora en InfluxDB 2.0 vamos a comprobar que los datos son recopilados debidamente con las funciones que hemos realizado en el paso anterior en Node-Red. Adjunto imagen de cómo debería aparecer, siempre dependiendo de vuestros datos e información que hayaís añadido en en el apartado de "function"
 
