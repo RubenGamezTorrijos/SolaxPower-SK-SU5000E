@@ -1,4 +1,6 @@
 # SolaxPower-SK-SU5000E
+![Producto_SolaxPower_SK-SU500E-removebg-preview](https://user-images.githubusercontent.com/19588354/131034842-169ae87b-777f-409e-bd05-835982d16dff.png)
+
 Monitorizar nuestro inversor SolaxPower SK-SU5000E de 4.6kW con Grafana e InfluxDB 2.0 sin depender del portal web oficial.
 
 Este modelo de inversor es de 1ª Generación, y su plataforma web oficial para su monitorización es www.solax-portal.com y la nueva para la 3ª Generación es www.solaxcloud.com.
