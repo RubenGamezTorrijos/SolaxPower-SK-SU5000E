@@ -1,5 +1,7 @@
 # SolaxPower-SK-SU5000E
 ![Producto_SolaxPower_SK-SU500E-removebg-preview](https://user-images.githubusercontent.com/19588354/131034842-169ae87b-777f-409e-bd05-835982d16dff.png)
+![Logo_SolaxPower](https://user-images.githubusercontent.com/19588354/131034937-b29efaf2-6828-425b-a612-6a1e7337accc.png)
+
 
 Monitorizar nuestro inversor SolaxPower SK-SU5000E de 4.6kW con Grafana e InfluxDB 2.0 sin depender del portal web oficial.
 
