@@ -28,3 +28,4 @@ Paso 2: Ahora en InfluxDB 2.0 vamos a comprobar que los datos son recopilados de
 
 Paso 3: Por último si deseamos monitorizarlo en Grafana para poder realizar filtros más detallados y gráficos más personalizados os quedará algo parecido como en la imagen siguiente:
 
+![SolaxPower_SK-SU5000E_Grafana](https://user-images.githubusercontent.com/19588354/131038328-0dfb19dc-cdcf-488c-9c2f-502431fa7607.jpg)
