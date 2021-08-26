@@ -16,9 +16,13 @@ Una vez tengamos las herramientas y todo instalado, empezaremos cómo configurar
 Paso 1: Usaremos la aplicación isntalada Node-Red y accederemos al portal web para su configuración. Es posible aquellos que tengan Node-Red por defecto no tiene el usuario Admin habilitado y podrás acceder sin usuario. (Esto es posible cambiarlo en configuraciones de Node-Red en la consola de comandos). Bien una vez en Node-Red cogeremos las bloques necesarios para obtener la información de nuestro equipo en la red local de nuestra casa o negocio. Y así poder traducir esos datos en el lenguaje legible para poder enviar los mismos datos a nuestra BBDD InfluxDB 2.0 o bien MySQL dependiendo de vuestra elección. (Recomiendo InfluxDB 2.0 par este repositorio). Os dejo una imagen de cómo quedaría en el ejemplo a continuación:
 
 ![SolaxPower_SK-SU5000E_Node-Red](https://user-images.githubusercontent.com/19588354/131035919-14f3c56c-e17e-45f2-b0a8-8d9bc28e4c21.jpg)
+![SolaxPower_SK-SU5000E_Node-Red_functions](https://user-images.githubusercontent.com/19588354/131037062-941eae52-ec44-4759-b664-f097da05b6e8.jpg)
 
 
 Paso 2: Ahora en InfluxDB 2.0 vamos a comprobar que los datos son recopilados debidamente con las funciones que hemos realizado en el paso anterior en Node-Red. Adjunto imagen de cómo debería aparecer, siempre dependiendo de vuestros datos e información que hayaís añadido en en el apartado de "function"
+
+![SolaxPower_SK-SU5000E_InfluxDB2 0](https://user-images.githubusercontent.com/19588354/131036865-e4538fb4-2af7-4902-a2b9-d5d7e140304c.jpg)
+
 
 Paso 3: Por último si deseamos monitorizarlo en Grafana para poder realizar filtros más detallados y gráficos más personalizados os quedará algo parecido como en la imagen siguiente:
 
