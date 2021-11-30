@@ -1,0 +1,147 @@
+[
+    {
+        "id": "6424115fbab35a2c",
+        "type": "tab",
+        "label": "SolaxPower SK-SU5000E",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "83191c7391ecedaf",
+        "type": "debug",
+        "z": "6424115fbab35a2c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 990,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "33c14375d0793345",
+        "type": "http request",
+        "z": "6424115fbab35a2c",
+        "name": "API SolaxPower",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.X.X/api/realTimeData.html",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "afc43c2ee12cb46c"
+            ]
+        ]
+    },
+    {
+        "id": "d2064575b74e530c",
+        "type": "function",
+        "z": "6424115fbab35a2c",
+        "name": "SolaxPower SU5000E",
+        "func": "// A continuación esto es un ejemplo de cómo exportar los datos de\n// SolaxPower SK-SU5000E.\n// Antes de realizar este apartado asegurarte de que obtienes los datos de\n// la dirección IP de tu equipo en modo local, cada arquitectura de red, siempre\n// es diferente.\n\nSolaxPower={\n    //PV1A:msg.payload.Data[0],\n    FV1A: msg.payload.Data[0],\n    // Debes continuar implementando los siguientes parámetros de tu equipo.\n};\n\nmsg.payload = SolaxPower;\n\nreturn msg;\n\n// Developed by Rubén Gámez Torrijos",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 100,
+        "wires": [
+            [
+                "83191c7391ecedaf",
+                "d310719a77e77e16"
+            ]
+        ]
+    },
+    {
+        "id": "394740d86bceb2a0",
+        "type": "inject",
+        "z": "6424115fbab35a2c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "33c14375d0793345"
+            ]
+        ]
+    },
+    {
+        "id": "afc43c2ee12cb46c",
+        "type": "yaml",
+        "z": "6424115fbab35a2c",
+        "property": "payload",
+        "name": "",
+        "x": 510,
+        "y": 100,
+        "wires": [
+            [
+                "a57c010157e7986f",
+                "d2064575b74e530c"
+            ]
+        ]
+    },
+    {
+        "id": "a57c010157e7986f",
+        "type": "debug",
+        "z": "6424115fbab35a2c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d310719a77e77e16",
+        "type": "influxdb out",
+        "z": "6424115fbab35a2c",
+        "influxdb": "",
+        "name": "Influx DB 2.0",
+        "measurement": "nombre que desees",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "SolaxPowerInfluxDB",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "Torrijos",
+        "bucket": "SolaxPower",
+        "x": 990,
+        "y": 100,
+        "wires": []
+    }
+]
