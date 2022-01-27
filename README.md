@@ -36,3 +36,13 @@ Paso 3: Por último si deseamos monitorizarlo en Grafana para poder realizar fil
 ![SolaxPower_SK-SU5000E_Grafana](https://user-images.githubusercontent.com/19588354/131038328-0dfb19dc-cdcf-488c-9c2f-502431fa7607.jpg)
 
 Ver en más información en YouTube: https://www.youtube.com/watch?v=9i_naLjdNTw
+
+### Crear vistas más realistas de nuestro Hogar o Negocio con Grafana 8.x
+
+> Pueden ver un ejemplo de cómo quedaría una vista personalizada en Grafana gracias un Plugin Flowcharting y uniendo Diagrams podremos hacer cosas incréibles.
+> Por supuesto a medida que el archivo JSON que creemos para crear estas imágens dinámicas los recursos de carga se elevan y pueden relentizar la monitorización.
+> Es muy importante la optimización del código y recursos del entorno en el que se encuentre, para tener una respuesta inmediata de visualización.
+> Muy pronto verán un curso que sacaré explicando todo con más detalles y con diferentes niveles.
+> Podrán ver el vídeo de ejemplo en el canal personal: [YouTube Canal Rubén Gámez Torrijos](https://www.youtube.com/watch?v=7VVp85DdpOs).
+
+
