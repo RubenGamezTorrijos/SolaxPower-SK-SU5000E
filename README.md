@@ -45,4 +45,5 @@ Ver en más información en YouTube: https://www.youtube.com/watch?v=9i_naLjdNTw
 > Muy pronto verán un curso que sacaré explicando todo con más detalles y con diferentes niveles.
 > Podrán ver el vídeo de ejemplo en el canal personal: [YouTube Canal Rubén Gámez Torrijos](https://www.youtube.com/watch?v=7VVp85DdpOs).
 
+![VID_20220126_215008_1](https://user-images.githubusercontent.com/19588354/151346870-ed0e3957-e0b6-4342-af19-9858e2490651.gif)
 
