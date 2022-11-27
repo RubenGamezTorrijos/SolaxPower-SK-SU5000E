@@ -26,6 +26,15 @@ URL para la obtención de datos históricos:
 ````
 Metodo GET: http://192.168.X.X/api/historyData.html 
 ````
+URL para la obtención de datos en tiempo real en la nube de Solax-portal.com
+````
+https://www.solax-portal.com/api/v1/site/overview/123456/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+````
+URL para la obtención de datos históricos en la nube de solax-porta.com
+````
+https://www.solax-portal.com/api/v1/site/inverterlist/123456/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+````
+
 Paso 2: Ahora en InfluxDB 2.0 vamos a comprobar que los datos son recopilados debidamente con las funciones que hemos realizado en el paso anterior en Node-Red. Adjunto imagen de cómo debería aparecer, siempre dependiendo de vuestros datos e información que hayaís añadido en en el apartado de "function"
 
 ![SolaxPower_SK-SU5000E_InfluxDB2 0](https://user-images.githubusercontent.com/19588354/131036865-e4538fb4-2af7-4902-a2b9-d5d7e140304c.jpg)
