@@ -1,4 +1,4 @@
-# SolaxPower-SK-SU5000E
+# ⚡SolaxPower-SK-SU5000E
 |Solax Power |SK-SU5000E|
 |------------|---------------|
 |![Logo_SolaxPower](https://user-images.githubusercontent.com/19588354/131035030-72bfaffb-bd52-41cd-9cf3-d621af49c739.png) | ![SolaX-X-Hybrid-Inverter-removebg-preview](https://user-images.githubusercontent.com/19588354/131035350-7df1f799-357f-4644-8a80-bdbcd8117d63.png) |
@@ -7,30 +7,30 @@ Monitorizar nuestro inversor **SolaxPower SK-SU5000E de 4.6kW** con **Grafana e 
 
 ---
 
-## Introducción
+## 💡Introducción
 
 Este modelo de inversor pertenece a la **1ª Generación**, cuya plataforma oficial de monitorización es [www.solax-portal.com](http://www.solax-portal.com).  
 La **3ª Generación** utiliza [www.solaxcloud.com](http://www.solaxcloud.com), pero **ambos portales no son compatibles entre sí**.
 
-### Limitaciones de la plataforma oficial:
+### ⚠️Limitaciones de la plataforma oficial:
 - **Falta de API:** El portal **solax-portal.com** no ofrece opciones para acceder a los datos mediante API.
 - **Tiempo limitado de datos:** Los gráficos están disponibles por un período de **aproximadamente 1 año**.
 - **Exportación manual:** Sólo es posible exportar datos en formato Excel (.csv), lo que no es muy visual.
 
-### Solución propuesta:
+### ✅Solución propuesta:
 Con este repositorio aprenderemos a:
 1. **Monitorizar el inversor en conexión local**, sin depender del portal oficial.
 2. **Utilizar herramientas Open Source** para crear un sistema personalizado y almacenar datos de forma indefinida (dependiendo de los recursos de tu servidor o PC).
 
 ---
 
-## Requisitos
+## 📋Requisitos
 
-### Hardware
+### 👨🏻‍🔧Hardware
 - **PC local**, **Servidor NAS** o **Raspberry Pi**  
   *(Dependiendo de tus recursos económicos o disponibles).*
 
-### Software
+### 🧑🏻‍💻Software
 - **Docker** (compatible con Windows, Linux, Mac o Raspberry Pi).
 - **Node-Red** (Docker).
 - **InfluxDB 2.0** (Docker).
@@ -40,7 +40,7 @@ Con este repositorio aprenderemos a:
 
 ## Pasos para la configuración
 
-### **Paso 1: Configuración de Node-Red**
+### 1️⃣**Paso 1: Configuración de Node-Red**
 
 1. Instalar y acceder a Node-Red desde su portal web.
    - Si no tienes habilitado el usuario **Admin**, es posible acceder sin usuario predeterminado.
@@ -58,7 +58,7 @@ Con este repositorio aprenderemos a:
 |--------------------------------------|
 |![SolaxPower_SK-SU5000E_Node-Red_functions](https://user-images.githubusercontent.com/19588354/131037062-941eae52-ec44-4759-b664-f097da05b6e8.jpg)|
 
-#### URLs para obtener datos:
+#### 🔗URLs para obtener datos:
 
 - **Datos en tiempo real:**
 ```
@@ -78,7 +78,7 @@ Con este repositorio aprenderemos a:
 ```
 
 ---
-### **Paso 2: Configuración de InfluxDB 2.0**
+### 2️⃣**Paso 2: Configuración de InfluxDB 2.0**
 1. Asegúrate de que los datos recopilados en Node-Red se envían correctamente a la base de datos.
 2. Revisa los datos en InfluxDB con las funciones configuradas.
 
@@ -86,7 +86,7 @@ Con este repositorio aprenderemos a:
 |-----------------------------------------|
 |![SolaxPower_SK-SU5000E_InfluxDB2 0](https://user-images.githubusercontent.com/19588354/131036865-e4538fb4-2af7-4902-a2b9-d5d7e140304c.jpg)|
 
-### **Paso 3: Configurar Grafana (opcional)**
+### 3️⃣**Paso 3: Configurar Grafana (opcional)**
 1. Integra Grafana con InfluxDB para una monitorización avanzada.
 2. Diseña dashboards personalizados para una experiencia visual más rica.
 
@@ -105,11 +105,11 @@ Utiliza plugins como Flowcharting o Diagrams para crear visualizaciones interact
 
 ---
 
-## Curso completo Grafana 8 Principiantes 2022
+## 🎓Curso completo Grafana 8 Principiantes 2022
 Aquí podréis encontrar lo esencial y con certificado GRATIS en la plataforma web que fundé con la marca [**GATORU ACADEMY®**](https://www.gatoru.com/course/grafana-8-principiante-2022).
 
 Vídeo de ejemplo:
 [YouTube Canal Rubén Gámez Torrijos](https://youtu.be/7VVp85DdpOs?si=t2FNu2gJL4u4jvkq)
 
-## Más información
+## ℹ️Más información
 Consulta este tutorial en video: [Monitorización con Grafana e InfluxDB](https://www.youtube.com/watch?v=9i_naLjdNTw).
