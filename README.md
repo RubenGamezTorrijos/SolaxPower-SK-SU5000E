@@ -50,13 +50,13 @@ Con este repositorio aprenderemos a:
    Esta información será traducida y enviada a tu base de datos (**InfluxDB 2.0**) o **MySQL**.  
    *(Recomendación: Usar **InfluxDB 2.0** para este proyecto).*
 
-#### Ejemplo de configuración en Node-Red:
+| **Ejemplo de configuración en Node-Red:** |
+|------------------------------------------|
+|![SolaxPower_SK-SU5000E_Node-Red](https://user-images.githubusercontent.com/19588354/131035919-14f3c56c-e17e-45f2-b0a8-8d9bc28e4c21.jpg)|
 
-![SolaxPower_SK-SU5000E_Node-Red](https://user-images.githubusercontent.com/19588354/131035919-14f3c56c-e17e-45f2-b0a8-8d9bc28e4c21.jpg)
-
-#### Bloques de funciones en Node-Red:
-
-![SolaxPower_SK-SU5000E_Node-Red_functions](https://user-images.githubusercontent.com/19588354/131037062-941eae52-ec44-4759-b664-f097da05b6e8.jpg)
+| **Bloques de funciones en Node-Red:** |
+|--------------------------------------|
+|![SolaxPower_SK-SU5000E_Node-Red_functions](https://user-images.githubusercontent.com/19588354/131037062-941eae52-ec44-4759-b664-f097da05b6e8.jpg)|
 
 #### URLs para obtener datos:
 
@@ -82,31 +82,31 @@ Con este repositorio aprenderemos a:
 1. Asegúrate de que los datos recopilados en Node-Red se envían correctamente a la base de datos.
 2. Revisa los datos en InfluxDB con las funciones configuradas.
 
-Ejemplo de visualización en InfluxDB:
-
-![SolaxPower_SK-SU5000E_InfluxDB2 0](https://user-images.githubusercontent.com/19588354/131036865-e4538fb4-2af7-4902-a2b9-d5d7e140304c.jpg)
+|**Ejemplo de visualización en InfluxDB:**|
+|-----------------------------------------|
+|![SolaxPower_SK-SU5000E_InfluxDB2 0](https://user-images.githubusercontent.com/19588354/131036865-e4538fb4-2af7-4902-a2b9-d5d7e140304c.jpg)|
 
 ### **Paso 3: Configurar Grafana (opcional)**
 1. Integra Grafana con InfluxDB para una monitorización avanzada.
 2. Diseña dashboards personalizados para una experiencia visual más rica.
 
-Ejemplo de visualización en Grafana:
-
-![SolaxPower_SK-SU5000E_Grafana](https://user-images.githubusercontent.com/19588354/131038328-0dfb19dc-cdcf-488c-9c2f-502431fa7607.jpg)
+|**Ejemplo de visualización en Grafana:**|
+|----------------------------------------|
+|![SolaxPower_SK-SU5000E_Grafana](https://user-images.githubusercontent.com/19588354/131038328-0dfb19dc-cdcf-488c-9c2f-502431fa7607.jpg)|
 
 ### Vistas avanzadas con Grafana
 Utiliza plugins como Flowcharting o Diagrams para crear visualizaciones interactivas de tu hogar o negocio.
 
 > Nota: Diseños avanzados pueden aumentar la carga en el sistema. Optimiza tus recursos para mantener una respuesta rápida.
 
-Ejemplo dinámico:
-
-![VID_20220126_215008_1](https://user-images.githubusercontent.com/19588354/151346870-ed0e3957-e0b6-4342-af19-9858e2490651.gif)
+|**Ejemplo dinámico:**|
+|---------------------|
+|![VID_20220126_215008_1](https://user-images.githubusercontent.com/19588354/151346870-ed0e3957-e0b6-4342-af19-9858e2490651.gif)|
 
 ---
 
 ## Curso completo Grafana 8 Principiantes 2022
-Aquí podréis encontrar lo esencial y con certificado GRATIS en la plataforma web que fundé con la marca [**GATORU ACADEMY®**](https://www.gatoru.com).
+Aquí podréis encontrar lo esencial y con certificado GRATIS en la plataforma web que fundé con la marca [**GATORU ACADEMY®**](https://www.gatoru.com/course/grafana-8-principiante-2022).
 
 Vídeo de ejemplo:
 [YouTube Canal Rubén Gámez Torrijos](https://youtu.be/7VVp85DdpOs?si=t2FNu2gJL4u4jvkq)
