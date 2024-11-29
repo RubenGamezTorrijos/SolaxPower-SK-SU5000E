@@ -106,7 +106,7 @@ Utiliza plugins como Flowcharting o Diagrams para crear visualizaciones interact
 ---
 
 ## 🎓Curso completo Grafana 8 Principiantes 2022
-Aquí podréis encontrar lo esencial y con certificado GRATIS en la plataforma web que fundé con la marca [**GATORU ACADEMY®**](https://www.gatoru.com/course/grafana-8-principiante-2022).
+Podrás realizar el [Curso de Grafana 8 Principiante 2022](https://www.gatoru.com/course/grafana-8-principiante-2022) con **CERTIFICADO Y GRATIS** más de **5 horas** en la plataforma que fundé con marca registrada [**GATORU ACADEMY®**](https://www.gatoru.com/).
 
 Vídeo de ejemplo:
 [YouTube Canal Rubén Gámez Torrijos](https://youtu.be/7VVp85DdpOs?si=t2FNu2gJL4u4jvkq)
